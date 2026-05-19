@@ -1,0 +1,21 @@
+:root {
+  --ifm-color-primary: #25c2a0;
+  --ifm-color-primary-dark: #21af90;
+  --ifm-color-primary-darker: #1fa588;
+  --ifm-color-primary-darkest: #1a8870;
+  --ifm-color-primary-light: #29d5b0;
+  --ifm-color-primary-lighter: #32d8b4;
+  --ifm-color-primary-lightest: #4fddbf;
+  --ifm-code-font-size: 95%;
+  --ifm-background-color: #1b1b1d;
+  --ifm-background-surface-color: #242526;
+  --ifm-font-color-base: #e3e3e3;
+  --ifm-navbar-background-color: #1b1b1d;
+  --ifm-footer-background-color: #1b1b1d;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+code {
+  background-color: #2d2d2d !important;
+  color: #e3e3e3 !important;
+  border: 1px solid #444 !important;
+}
