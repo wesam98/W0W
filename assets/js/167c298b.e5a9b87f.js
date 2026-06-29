@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_blog=self.webpackChunkmy_blog||[]).push([["3230"],{9133(a){a.exports=JSON.parse('{"tag":{"label":"Android","permalink":"/tags/android","allTagsPath":"/tags","count":2,"unlisted":false},"listMetadata":{"permalink":"/tags/android","page":1,"postsPerPage":10,"totalPages":1,"totalCount":2,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);

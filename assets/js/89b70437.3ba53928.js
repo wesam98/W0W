@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_blog=self.webpackChunkmy_blog||[]).push([["730"],{5608(a){a.exports=JSON.parse('{"tag":{"label":"jadx","permalink":"/tags/jadx","allTagsPath":"/tags","count":1,"unlisted":false},"listMetadata":{"permalink":"/tags/jadx","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);
