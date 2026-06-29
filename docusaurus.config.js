@@ -12,9 +12,10 @@ const config = {
   },
 
   url: 'https://wesam98.github.io',
-baseUrl: '/W0W/',
-organizationName: 'wesam98',
-projectName: 'W0W',
+  baseUrl: '/W0W/',
+
+  organizationName: 'wesam98',
+  projectName: 'W0W',
 
   onBrokenLinks: 'warn',
   onBrokenAnchors: 'warn',
@@ -45,6 +46,10 @@ projectName: 'W0W',
     ],
   ],
 
+  plugins: [
+    './src/plugins/blog-tags-plugin.js',
+  ],
+
   themeConfig:
     ({
       colorMode: {
@@ -54,6 +59,11 @@ projectName: 'W0W',
       navbar: {
         title: '0xWOW',
         items: [
+          {
+            to: '/categories',
+            label: 'Categories',
+            position: 'left',
+          },
           {
             href: 'https://github.com/wesam98',
             label: 'GitHub',
