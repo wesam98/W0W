@@ -14,10 +14,7 @@ const config = {
   url: 'https://wesam98.github.io',
 baseUrl: '/W0W/',
 organizationName: 'wesam98',
-projectName: 'W0W',',
-
-  organizationName: 'wesam98',
-  projectName: 'my-blog',
+projectName: 'W0W',
 
   onBrokenLinks: 'warn',
   onBrokenAnchors: 'warn',
