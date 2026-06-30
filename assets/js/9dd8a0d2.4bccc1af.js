@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_blog=self.webpackChunkmy_blog||[]).push([["4962"],{5008(e,r,s){s.r(r),s.d(r,{default:()=>t});var u=s(4848);s(6540);var a=s(6347);function t(){return(0,u.jsx)(a.rd,{to:"/authors/wesam"})}}}]);
