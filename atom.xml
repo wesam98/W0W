@@ -707,11 +707,7 @@
             <name>Wesam Abdelaziz</name>
             <uri>https://github.com/wesam98</uri>
         </author>
-        <category label="android" term="android"/>
-        <category label="jadx" term="jadx"/>
-        <category label="sqlite" term="sqlite"/>
-        <category label="sql-injection" term="sql-injection"/>
-        <category label="webview" term="webview"/>
+        <category label="Android" term="Android"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[FortiClient VPN - Credential Exposure]]></title>

@@ -684,11 +684,7 @@
 <li class="">All notes were returned directly without any authentication.
 <img decoding="async" loading="lazy" alt="image.png" src="https://wesam98.github.io/W0W/assets/images/d34-15bfbc1b55e64b3f5225ff9bf4ff3906.png" width="757" height="142" class="img_ev3q"></li>
 </ul>]]></content:encoded>
-            <category>android</category>
-            <category>jadx</category>
-            <category>sqlite</category>
-            <category>sql-injection</category>
-            <category>webview</category>
+            <category>Android</category>
         </item>
         <item>
             <title><![CDATA[FortiClient VPN - Credential Exposure]]></title>
