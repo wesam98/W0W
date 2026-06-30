@@ -89,6 +89,7 @@
 </ul>
 <hr>
 <aside><p>💡The root cause is unsanitized input passed to <code>sh -c</code> because the filename goes through the shell, any <code>;</code> in it gets interpreted as a command separator. The fix is to drop <code>sh -c</code> entirely and pass the arguments directly to <code>toybox</code> via <code>ProcessBuilder</code>, so the filename is never interpreted by a shell and is treated as a literal argument:</p><div class="language-java codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#bfc7d5;--prism-background-color:#292d3e"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-java codeBlock_bY9V thin-scrollbar" style="color:#bfc7d5;background-color:#292d3e"><code class="codeBlockLines_e6Vv"><div class="token-line" style="color:#bfc7d5"><span class="token plain">// vulnerable — full string handed to sh, which interprets ; as a command separator</span><br></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">new ProcessBuilder()</span><br></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">    .command("sh", "-c", "toybox sha1sum " + file.getAbsolutePath())</span><br></div><div class="token-line" style="color:#bfc7d5"><span class="token plain" style="display:inline-block"></span><br></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">// safe — arguments passed directly to toybox, no shell involved, ; is just a character</span><br></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">new ProcessBuilder()</span><br></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">    .command("toybox", "sha1sum", file.getAbsolutePath())</span><br></div></code></pre></div></div></aside>]]></content:encoded>
+            <category>Android</category>
         </item>
         <item>
             <title><![CDATA[APKey - HTB Challenge]]></title>
@@ -140,6 +141,7 @@
 <li class="">The condition now evaluates to <code>true</code> for any non-matching hash → flag displayed
 <img decoding="async" loading="lazy" alt="image.png" src="https://wesam98.github.io/W0W/assets/images/A2-7dfe0f1c75388d2be0aedeb43fc725b1.png" width="491" height="892" class="img_ev3q"></li>
 </ul>]]></content:encoded>
+            <category>Android</category>
         </item>
         <item>
             <title><![CDATA[Cat - HTB]]></title>
@@ -220,6 +222,7 @@
 <p><img decoding="async" loading="lazy" alt="image.png" src="https://wesam98.github.io/W0W/assets/images/img3-84aafa25c0b1b2cd51be6b7d970c45e3.png" width="743" height="381" class="img_ev3q"></p>
 </li>
 </ul>]]></content:encoded>
+            <category>Android</category>
         </item>
         <item>
             <title><![CDATA[Beetlbug - Firebase]]></title>
@@ -248,6 +251,7 @@
 <p><img decoding="async" loading="lazy" alt="image.png" src="https://wesam98.github.io/W0W/assets/images/img5-093666fb21afb2c36f504e93aba2773b.png" width="848" height="155" class="img_ev3q"></p>
 </li>
 </ul>]]></content:encoded>
+            <category>Android</category>
         </item>
         <item>
             <title><![CDATA[Vuln_WebView]]></title>
@@ -741,6 +745,7 @@
 <div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#bfc7d5;--prism-background-color:#292d3e"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#bfc7d5;background-color:#292d3e"><code class="codeBlockLines_e6Vv"><div class="token-line" style="color:#bfc7d5"><span class="token plain">python3 script.py       </span><br></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">## Password: HiThis IsWesam</span><br></div></code></pre></div></div>
 </li>
 </ul>]]></content:encoded>
+            <category>Android</category>
         </item>
         <item>
             <title><![CDATA[AllSafe - Part 1]]></title>
@@ -868,6 +873,7 @@ The correct PIN is <strong>4863</strong>.</p>
 <li class=""><code>String(i)</code> — converts the integer <code>i</code> to a string since <code>checkPin()</code> expects a string parameter, not a number.</li>
 <li class=""><code>padStart(4, '0')</code> = make the string exactly 4 characters long — if it's shorter, fill the missing characters from the left with <code>'0'</code>.</li>
 </ul>]]></content:encoded>
+            <category>Android</category>
         </item>
         <item>
             <title><![CDATA[AllSafe - Part 2]]></title>
@@ -1021,6 +1027,7 @@ The correct PIN is <strong>4863</strong>.</p>
 <p>Used Objection to bypass SSL Pinning</p>
 <div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#bfc7d5;--prism-background-color:#292d3e"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#bfc7d5;background-color:#292d3e"><code class="codeBlockLines_e6Vv"><div class="token-line" style="color:#bfc7d5"><span class="token plain">objection -n infosecadventures.allsafe start</span><br></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">android sslpinning disable</span><br></div></code></pre></div></div>
 <p><img decoding="async" loading="lazy" alt="image.png" src="https://wesam98.github.io/W0W/assets/images/image26-35a31f9608aca9a7d837da55c04733cd.png" width="508" height="152" class="img_ev3q"></p>]]></content:encoded>
+            <category>Android</category>
         </item>
         <item>
             <title><![CDATA[AllSafe - Part 3]]></title>
@@ -1276,6 +1283,7 @@ The correct PIN is <strong>4863</strong>.</p>
 </ul>
 <p><strong>Running the Hook</strong></p>
 <p><strong><code>frida -U -f infosecadventures.allsafe -l hook.js</code></strong></p>]]></content:encoded>
+            <category>Android</category>
         </item>
         <item>
             <title><![CDATA[AppLock - Pattern Crack]]></title>
@@ -1361,6 +1369,7 @@ Pattern dots → bytes → SHA-1 hash → Base64 encode → SharedPreferences.</
 <div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#bfc7d5;--prism-background-color:#292d3e"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#bfc7d5;background-color:#292d3e"><code class="codeBlockLines_e6Vv"><div class="token-line" style="color:#bfc7d5"><span class="token plain">python2 aplc.py gesture.key</span><br></div><div class="token-line" style="color:#bfc7d5"><span class="token plain" style="display:inline-block"></span><br></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">## [:D] The pattern has been FOUND!!! =&gt; 0124678</span><br></div><div class="token-line" style="color:#bfc7d5"><span class="token plain" style="display:inline-block"></span><br></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">## [+] Gesture:</span><br></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">## | 1 | 2 | 3 |</span><br></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">## | 4 |   |   |</span><br></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">## | 5 | 6 | 7 |</span><br></div></code></pre></div></div>
 <hr>
 <aside><p>💡</p><p>A secure implementation would use a modern algorithm like **<code>bcrypt</code> or <code>Argon2**</code> with a random salt, making brute-force computationally infeasible even with the same small keyspace.</p></aside>]]></content:encoded>
+            <category>Android</category>
         </item>
     </channel>
 </rss>

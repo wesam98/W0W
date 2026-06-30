@@ -92,6 +92,7 @@
             <name>Wesam Abdelaziz</name>
             <uri>https://github.com/wesam98</uri>
         </author>
+        <category label="Android" term="Android"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[APKey - HTB Challenge]]></title>
@@ -147,6 +148,7 @@
             <name>Wesam Abdelaziz</name>
             <uri>https://github.com/wesam98</uri>
         </author>
+        <category label="Android" term="Android"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[Cat - HTB]]></title>
@@ -231,6 +233,7 @@
             <name>Wesam Abdelaziz</name>
             <uri>https://github.com/wesam98</uri>
         </author>
+        <category label="Android" term="Android"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[Beetlbug - Firebase]]></title>
@@ -263,6 +266,7 @@
             <name>Wesam Abdelaziz</name>
             <uri>https://github.com/wesam98</uri>
         </author>
+        <category label="Android" term="Android"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[Vuln_WebView]]></title>
@@ -768,6 +772,7 @@
             <name>Wesam Abdelaziz</name>
             <uri>https://github.com/wesam98</uri>
         </author>
+        <category label="Android" term="Android"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[AllSafe - Part 1]]></title>
@@ -899,6 +904,7 @@ The correct PIN is <strong>4863</strong>.</p>
             <name>Wesam Abdelaziz</name>
             <uri>https://github.com/wesam98</uri>
         </author>
+        <category label="Android" term="Android"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[AllSafe - Part 2]]></title>
@@ -1056,6 +1062,7 @@ The correct PIN is <strong>4863</strong>.</p>
             <name>Wesam Abdelaziz</name>
             <uri>https://github.com/wesam98</uri>
         </author>
+        <category label="Android" term="Android"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[AllSafe - Part 3]]></title>
@@ -1315,6 +1322,7 @@ The correct PIN is <strong>4863</strong>.</p>
             <name>Wesam Abdelaziz</name>
             <uri>https://github.com/wesam98</uri>
         </author>
+        <category label="Android" term="Android"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[AppLock - Pattern Crack]]></title>
@@ -1404,5 +1412,6 @@ Pattern dots → bytes → SHA-1 hash → Base64 encode → SharedPreferences.</
             <name>Wesam Abdelaziz</name>
             <uri>https://github.com/wesam98</uri>
         </author>
+        <category label="Android" term="Android"/>
     </entry>
 </feed>
