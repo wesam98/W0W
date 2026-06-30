@@ -48,14 +48,6 @@ const config = {
 
 plugins: [
   './src/plugins/blog-tags-plugin.js',
-  [
-    '@docusaurus/plugin-client-redirects',
-    {
-      redirects: [
-        { from: '/', to: '/authors/wesam' },
-      ],
-    },
-  ],
 ],
 
   themeConfig:
