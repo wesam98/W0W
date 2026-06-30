@@ -76,6 +76,11 @@ const config = {
         links: [],
         copyright: `Copyright © ${new Date().getFullYear()} Wesam Abdelaziz`,
       },
+      markdown: {
+  hooks: {
+    onBrokenMarkdownImages: 'warn',
+  },
+},
     }),
 };
 
