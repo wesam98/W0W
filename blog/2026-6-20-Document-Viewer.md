@@ -1,6 +1,6 @@
 ---
-slug: Document Viewer -mobile-hacking-lab
-title: Document Viewer - Mobile Hacking Lab
+slug: Document-Viewer -mobile-hacking-lab
+title: Document Viewer - MHL
 authors: [wesam]
 date: 2026-05-17
 tags: [Android]
