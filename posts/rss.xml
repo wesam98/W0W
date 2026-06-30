@@ -93,12 +93,12 @@
         </item>
         <item>
             <title><![CDATA[Document Viewer - MHL]]></title>
-            <link>https://wesam98.github.io/W0W/posts/Document Viewer -mobile-hacking-lab</link>
-            <guid>https://wesam98.github.io/W0W/posts/Document Viewer -mobile-hacking-lab</guid>
+            <link>https://wesam98.github.io/W0W/posts/Document-Viewer -mobile-hacking-lab</link>
+            <guid>https://wesam98.github.io/W0W/posts/Document-Viewer -mobile-hacking-lab</guid>
             <pubDate>Sun, 17 May 2026 00:00:00 GMT</pubDate>
             <description><![CDATA[{/ truncate /}]]></description>
             <content:encoded><![CDATA[
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="objective">Objective<a href="https://wesam98.github.io/W0W/posts/Document%20Viewer%20-mobile-hacking-lab#objective" class="hash-link" aria-label="Direct link to Objective" title="Direct link to Objective" translate="no">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="objective">Objective<a href="https://wesam98.github.io/W0W/posts/Document-Viewer%20-mobile-hacking-lab#objective" class="hash-link" aria-label="Direct link to Objective" title="Direct link to Objective" translate="no">​</a></h3>
 <ul>
 <li class="">Exploit a combination of path traversal and native library hijacking vulnerabilities in an exported activity to achieve Remote Code Execution (RCE).</li>
 </ul>
@@ -152,7 +152,7 @@
 <li class="">This is exactly what the path traversal gives us.</li>
 </ul>
 <hr>
-<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="chaining-both-vulnerabilities">Chaining Both Vulnerabilities<a href="https://wesam98.github.io/W0W/posts/Document%20Viewer%20-mobile-hacking-lab#chaining-both-vulnerabilities" class="hash-link" aria-label="Direct link to Chaining Both Vulnerabilities" title="Direct link to Chaining Both Vulnerabilities" translate="no">​</a></h4>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="chaining-both-vulnerabilities">Chaining Both Vulnerabilities<a href="https://wesam98.github.io/W0W/posts/Document-Viewer%20-mobile-hacking-lab#chaining-both-vulnerabilities" class="hash-link" aria-label="Direct link to Chaining Both Vulnerabilities" title="Direct link to Chaining Both Vulnerabilities" translate="no">​</a></h4>
 <ul>
 <li class="">Wrote a C payload using <code>__attribute__((constructor))</code> — executes automatically the moment <code>System.load()</code> is called:</li>
 </ul>
