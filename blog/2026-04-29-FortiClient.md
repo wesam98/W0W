@@ -3,6 +3,7 @@ slug: forticlient-vpn
 title: FortiClient VPN - Credential Exposure
 authors: [wesam]
 date: 2026-05-02
+tags: [Android]
 ---
 
 

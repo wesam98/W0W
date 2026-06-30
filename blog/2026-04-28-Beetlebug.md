@@ -2,6 +2,7 @@
 slug: Beetlbug-Firebase
 title: Beetlbug - Firebase
 authors: [wesam]
+tags: [Android]
 date: 2026-05-08
 ---
 {/* truncate */}

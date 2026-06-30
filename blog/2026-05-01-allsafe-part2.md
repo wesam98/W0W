@@ -3,6 +3,7 @@ slug: allsafe-part2
 title: AllSafe - Part 2
 authors: [wesam]
 date: 2026-05-01
+tags: [Android]
 ---
 
 AllSafe Part 2 covers challenges 7–12: Root Detection, Secure Flag Bypass, Deep Link, Insecure Broadcast Receiver, and Vulnerable WebView.

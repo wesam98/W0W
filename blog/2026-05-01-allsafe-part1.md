@@ -3,6 +3,7 @@ slug: allsafe-part1
 title: AllSafe - Part 1
 authors: [wesam]
 date: 2026-05-01
+tags: [Android]
 ---
 
 AllSafe is an intentionally vulnerable Android app. This part covers challenges 1–6.

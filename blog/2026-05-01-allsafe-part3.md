@@ -3,7 +3,7 @@ slug: allsafe-part3
 title: AllSafe - Part 3
 authors: [wesam]
 date: 2026-05-01
-
+tags: [Android]
 ---
 
 AllSafe Part 3 covers challenges 14–18: Weak Crypto, Insecure Service, Object Serialization, Insecure Provider, and Native Library.
